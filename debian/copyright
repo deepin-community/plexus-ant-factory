@@ -1,0 +1,15 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Plexus Ant Factory
+Source: https://github.com/codehaus-plexus/plexus-component-factories/tree/master/plexus-ant-factory
+
+Files: *
+Copyright: 2001-2009, Codehaus Foundation.
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2009, Ludovic Claude <ludovic.claude@laposte.net>
+License: Apache-2.0
+
+License: Apache-2.0
+  On Debian GNU/Linux system you can find the complete text of the
+  Apache 2.0 license in '/usr/share/common-licenses/Apache-2.0'.

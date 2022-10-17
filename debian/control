@@ -1,0 +1,30 @@
+Source: plexus-ant-factory
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders:
+ Ludovic Claude <ludovic.claude@laposte.net>,
+ Damien Raude-Morvan <drazzib@debian.org>
+Build-Depends:
+ ant,
+ debhelper (>= 10),
+ default-jdk,
+ junit4,
+ libplexus-container-default1.5-java,
+ maven-debian-helper (>= 2.2)
+Standards-Version: 4.1.0
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/plexus-ant-factory.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/plexus-ant-factory.git
+Homepage: https://codehaus-plexus.github.io/
+
+Package: libplexus-ant-factory-java
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: Plexus Ant Factory
+ The Plexus project provides a full software stack for creating and
+ executing software projects. Based on the Plexus container, the applications
+ can utilise component-oriented programming to build modular, reusable
+ components that can easily be assembled and reused.
+ .
+ This package provides a factory for instantiating Ant with Plexus.

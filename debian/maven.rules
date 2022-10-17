@@ -1,0 +1,2 @@
+junit junit * s/.*/4.x/ * *
+org.codehaus.plexus plexus-container-default * s/.*/1.5.5/ * *

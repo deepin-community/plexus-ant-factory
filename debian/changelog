@@ -1,0 +1,39 @@
+plexus-ant-factory (1.0~alpha2.1-4) unstable; urgency=medium
+
+  * Team upload.
+  * Build with maven-debian-helper instead of maven-ant-helper
+  * Enabled the unit tests
+  * Depend on libplexus-container-default1.5-java instead of
+    libplexus-container-default-java
+  * Removed the unused dependency on ant-optional
+  * Moved the package to Git
+  * Standards-Version updated to 4.1.0
+  * Switch to debhelper level 10
+  * Updated debian/copyright to the Copyright Format 1.0
+  * Updated the Homepage field
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Tue, 29 Aug 2017 22:26:48 +0200
+
+plexus-ant-factory (1.0~alpha2.1-3) unstable; urgency=low
+
+  * Add myself to Uploaders.
+  * Bump Standards-Version to 3.9.2: no changes needed.
+  * Fix FTBFS: remove version param (deprecated in debian-ant-helper)
+    and use POM version (Closes: #628352).
+  * Use mh_clean in clean rule.
+  * Bump to debhelper 7 compat level.
+  * Switch to source format 3.0 (quilt).
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Sun, 29 May 2011 13:33:41 +0200
+
+plexus-ant-factory (1.0~alpha2.1-2) unstable; urgency=low
+
+  * Switch to the new plexus-container package.
+
+ -- Torsten Werner <twerner@debian.org>  Mon, 13 Jul 2009 21:20:08 +0200
+
+plexus-ant-factory (1.0~alpha2.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #535018)
+
+ -- Ludovic Claude <ludovic.claude@laposte.net>  Sat, 28 Mar 2009 22:01:14 +0000
